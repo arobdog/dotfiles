@@ -31,7 +31,7 @@ config.background = {
 
 config.font = wezterm.font({
 	family = "Hasklug Nerd Font Mono",
-	weight = "Medium",
+	weight = "Regular",
 })
 
 config.font_size = 13.0
