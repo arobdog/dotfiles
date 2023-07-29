@@ -167,6 +167,10 @@ return packer.startup(function(use)
 
 	-- statusline
 	use("feline-nvim/feline.nvim")
+	use("rebelot/heirline.nvim")
+
+	-- Smooth scrolling
+	--use("karb94/neoscroll.nvim")
 
 	-- rust crate managing
 	-- use {

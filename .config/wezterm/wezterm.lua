@@ -13,10 +13,10 @@ end
 config.background = {
 	{
 		source = {
-			File = "",
+			File = "/Users/alexrobinson/Wallpapers/vertical/red-fractal.jpg",
 		},
 		hsb = {
-			brightness = 0.012,
+			brightness = 0.050,
 			hue = 1.0,
 			saturation = 1.0,
 		},
