@@ -36,6 +36,7 @@ return packer.startup(function(use)
 
 	-- Colour Schemes
 	use({ "rose-pine/neovim", as = "rose-pine" })
+	use({ "fenetikm/falcon", as = "falcon" })
 	use("EdenEast/nightfox.nvim")
 	use("rebelot/kanagawa.nvim")
 
@@ -166,8 +167,11 @@ return packer.startup(function(use)
 	use("lukas-reineke/indent-blankline.nvim")
 
 	-- statusline
-	use("feline-nvim/feline.nvim")
+	--use("feline-nvim/feline.nvim")
 	use("rebelot/heirline.nvim")
+
+	-- Colour code highlighting
+	use("NvChad/nvim-colorizer.lua")
 
 	-- Smooth scrolling
 	--use("karb94/neoscroll.nvim")
